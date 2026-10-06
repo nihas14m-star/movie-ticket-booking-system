@@ -7,7 +7,7 @@ export default function AdminLoginPage() {
   const { login, isAuthenticated } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
-  const [email, setEmail] = useState('nihas@cineverse.dev');
+  const [email, setEmail] = useState('admin@cineverse.dev');
   const [password, setPassword] = useState('');
   const [error, setError] = useState(null);
   const [busy, setBusy] = useState(false);
@@ -81,7 +81,7 @@ export default function AdminLoginPage() {
 
         <div className="demo-credentials" style={{ marginTop: 22 }}>
           <strong>Demo credentials (seeded)</strong>
-          <span>Admin: <code>nihas@cineverse.dev</code> / <code>admin123</code></span>
+          <span>Admin: <code>admin@cineverse.dev</code> / <code>admin123</code></span>
           <span>Customer: <code>demo@cineverse.dev</code> / <code>password123</code></span>
           <span className="tiny" style={{ opacity: 0.8 }}>
             Customers do not need an account to book — this is only for the admin console.

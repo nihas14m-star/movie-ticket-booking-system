@@ -177,8 +177,8 @@ async function main() {
     await page.waitForSelector('#name');
     await settle(page);
 
-    await page.fill('#name', 'Nihas');
-    await page.fill('#email', 'nihas.booking@cineverse.dev');
+    await page.fill('#name', 'Customer One');
+    await page.fill('#email', 'customer1.booking@cineverse.dev');
     await page.fill('#phone', '+91 98490 11001');
     await page.waitForTimeout(300);
     await shoot(page, '10-checkout-details');
@@ -207,7 +207,7 @@ async function main() {
   await step('find my bookings', async () => {
     await page.goto(`${BASE}/my-bookings`, { waitUntil: 'domcontentloaded' });
     await page.waitForSelector('#lookupEmail');
-    await page.fill('#lookupEmail', 'nihas.booking@cineverse.dev');
+    await page.fill('#lookupEmail', 'customer1.booking@cineverse.dev');
     await page.locator('button:has-text("Search bookings")').click();
     await page.waitForSelector('.booking-row', { timeout: 20000 });
     await settle(page, 400);
@@ -231,7 +231,7 @@ async function main() {
   await step('admin login', async () => {
     await admin.goto(`${BASE}/admin/login`, { waitUntil: 'domcontentloaded' });
     await admin.waitForSelector('#adminEmail');
-    await admin.fill('#adminEmail', 'nihas@cineverse.dev');
+    await admin.fill('#adminEmail', 'admin@cineverse.dev');
     await admin.fill('#adminPassword', 'admin123');
     await admin.waitForTimeout(300);
     await shoot(admin, '16-admin-login');

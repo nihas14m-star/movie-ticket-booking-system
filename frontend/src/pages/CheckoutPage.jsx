@@ -264,7 +264,7 @@ export default function CheckoutPage() {
                         className={`input ${errors.name ? 'input-error' : ''}`}
                         value={form.name}
                         onChange={(event) => setForm({ ...form, name: event.target.value })}
-                        placeholder="e.g. Nihas Kumar"
+                        placeholder="Your full name"
                         autoComplete="name"
                         required
                       />

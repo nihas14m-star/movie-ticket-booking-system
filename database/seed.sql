@@ -321,17 +321,17 @@ UPDATE shows
     OR (show_date = CURDATE() AND end_time <= CURTIME());
 
 -- -----------------------------------------------------------------------------
---  Users — the project team plus a demo account.
+--  Users — one seeded administrator plus demo customer accounts.
 --  Passwords: admin123 (admin) / password123 (everyone else).
 --  Hashes are bcrypt (bcryptjs, 10 rounds).
 -- -----------------------------------------------------------------------------
 INSERT INTO users (full_name, email, phone, password_hash, role) VALUES
-  ('Nihas',    'nihas@cineverse.dev',    '+91 98490 11001', '$2a$10$QPCSOIqcIIrSTrqrnJSyku45WZNw3lxWo0pU04qodHektA/8Q5x4y', 'admin'),
-  ('Srikanth', 'srikanth@cineverse.dev', '+91 98490 11002', '$2a$10$ljgxowB551ui7JCqd919ae47gnwVjKRFsVzpUwFL4nu6AQux6s5SK', 'customer'),
-  ('Vaibhav',  'vaibhav@cineverse.dev',  '+91 98490 11003', '$2a$10$ljgxowB551ui7JCqd919ae47gnwVjKRFsVzpUwFL4nu6AQux6s5SK', 'customer'),
-  ('Varun',    'varun@cineverse.dev',    '+91 98490 11004', '$2a$10$ljgxowB551ui7JCqd919ae47gnwVjKrFsVzpUwFL4nu6AQux6s5SK', 'customer'),
-  ('Ranjith',  'ranjith@cineverse.dev',  '+91 98490 11005', '$2a$10$ljgxowB551ui7JCqd919ae47gnwVjKRFsVzpUwFL4nu6AQux6s5SK', 'customer'),
-  ('Demo Customer', 'demo@cineverse.dev', '+91 98490 11006', '$2a$10$ljgxowB551ui7JCqd919ae47gnwVjKRFsVzpUwFL4nu6AQux6s5SK', 'customer');
+  ('Admin User',     'admin@cineverse.dev',     '+91 98490 11001', '$2a$10$QPCSOIqcIIrSTrqrnJSyku45WZNw3lxWo0pU04qodHektA/8Q5x4y', 'admin'),
+  ('Customer One',   'customer1@cineverse.dev', '+91 98490 11002', '$2a$10$ljgxowB551ui7JCqd919ae47gnwVjKRFsVzpUwFL4nu6AQux6s5SK', 'customer'),
+  ('Customer Two',   'customer2@cineverse.dev', '+91 98490 11003', '$2a$10$ljgxowB551ui7JCqd919ae47gnwVjKRFsVzpUwFL4nu6AQux6s5SK', 'customer'),
+  ('Customer Three', 'customer3@cineverse.dev', '+91 98490 11004', '$2a$10$ljgxowB551ui7JCqd919ae47gnwVjKrFsVzpUwFL4nu6AQux6s5SK', 'customer'),
+  ('Customer Four',  'customer4@cineverse.dev', '+91 98490 11005', '$2a$10$ljgxowB551ui7JCqd919ae47gnwVjKRFsVzpUwFL4nu6AQux6s5SK', 'customer'),
+  ('Demo Customer',  'demo@cineverse.dev',      '+91 98490 11006', '$2a$10$ljgxowB551ui7JCqd919ae47gnwVjKRFsVzpUwFL4nu6AQux6s5SK', 'customer');
 
 -- -----------------------------------------------------------------------------
 --  Sample bookings so the seat maps, admin dashboard and reports are not empty.

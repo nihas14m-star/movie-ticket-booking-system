@@ -119,7 +119,7 @@ Open http://localhost:5173/admin/login
 
 | Role | E-mail | Password |
 |---|---|---|
-| **Admin** | `nihas@cineverse.dev` | `admin123` |
+| **Admin** | `admin@cineverse.dev` | `admin123` |
 | Customer | `demo@cineverse.dev` | `password123` |
 
 > Customer booking does **not** require an account — checkout is guest-friendly. The customer
@@ -301,15 +301,5 @@ Endpoints: `GET /api/ai/status`, `POST /api/ai/recommend`, `POST /api/ai/search`
 - **[database/schema.sql](database/schema.sql)** — heavily commented DDL, the real source of truth.
 
 ---
-
-## 👥 Team
-
-| Member | Contribution |
-|---|---|
-| **Nihas** | Database schema & seeding, booking transaction, admin API |
-| **Srikanth** | REST API, validation, authentication, integration tests |
-| **Vaibhav** | React app shell, routing, catalogue & movie detail pages |
-| **Varun** | Seat-selection UX, checkout, tickets, design system |
-| **Ranjith** | Admin console, AI integration, documentation & screenshots |
 
 *Built with Node.js, Express, MySQL 8 and React 18.*

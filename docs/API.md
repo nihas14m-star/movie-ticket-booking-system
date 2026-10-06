@@ -379,11 +379,11 @@ a token.
 ### `POST /api/auth/login`
 
 ```json
-{ "email": "nihas@cineverse.dev", "password": "admin123" }
+{ "email": "admin@cineverse.dev", "password": "admin123" }
 ```
 
 ```json
-{ "data": { "token": "eyJhbGciOi…", "user": { "id": 1, "name": "Nihas", "email": "nihas@cineverse.dev", "phone": "…", "role": "admin" } } }
+{ "data": { "token": "eyJhbGciOi…", "user": { "id": 1, "name": "Admin User", "email": "admin@cineverse.dev", "phone": "…", "role": "admin" } } }
 ```
 
 Wrong e-mail and wrong password return the **same** `401 INVALID_CREDENTIALS`, so the API never

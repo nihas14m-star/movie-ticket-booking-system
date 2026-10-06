@@ -468,13 +468,13 @@ test('admin can sign in and read the dashboard', async (t) => {
 
   const bad = await api('/api/auth/login', {
     method: 'POST',
-    body: { email: 'nihas@cineverse.dev', password: 'wrong-password' },
+    body: { email: 'admin@cineverse.dev', password: 'wrong-password' },
   });
   assert.equal(bad.status, 401);
 
   const login = await api('/api/auth/login', {
     method: 'POST',
-    body: { email: 'nihas@cineverse.dev', password: 'admin123' },
+    body: { email: 'admin@cineverse.dev', password: 'admin123' },
   });
   assert.equal(login.status, 200);
   assert.equal(login.body.data.user.role, 'admin');
@@ -501,7 +501,7 @@ test('admin movie CRUD validates input and protects referenced movies', async (t
   if (skipWithoutDb(t)) return;
   const login = await api('/api/auth/login', {
     method: 'POST',
-    body: { email: 'nihas@cineverse.dev', password: 'admin123' },
+    body: { email: 'admin@cineverse.dev', password: 'admin123' },
   });
   const { token } = login.body.data;
 

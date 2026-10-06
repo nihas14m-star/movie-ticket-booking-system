@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 
-const TEAM = ['Nihas', 'Srikanth', 'Vaibhav', 'Varun', 'Ranjith'];
-
 export default function Footer() {
   return (
     <footer className="footer">
@@ -36,14 +34,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
-            <h4>Project team</h4>
-            <ul>
-              {TEAM.map((member) => (
-                <li key={member}>{member}</li>
-              ))}
-            </ul>
-          </div>
         </div>
 
         <hr className="divider" />

@@ -1288,7 +1288,7 @@
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.4fr repeat(3, 1fr);
+  grid-template-columns: 1.4fr repeat(2, 1fr);
   gap: 28px;
 }
 @media (max-width: 800px) {

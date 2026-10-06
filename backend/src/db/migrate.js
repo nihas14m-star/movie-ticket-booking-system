@@ -99,7 +99,7 @@ async function main() {
     console.log(`\n✅ Database ready in ${seconds}s -> ${env.db.database}`);
     // These must match database/seed.sql, otherwise the first thing a reviewer
     // tries is an account that does not exist.
-    console.log('   Demo logins: nihas@cineverse.dev / admin123 (admin)   ·   demo@cineverse.dev / password123 (customer)');
+    console.log('   Demo logins: admin@cineverse.dev / admin123 (admin)   ·   demo@cineverse.dev / password123 (customer)');
   } finally {
     await connection.end();
   }
