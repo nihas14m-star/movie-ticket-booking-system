@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Rangoli Nights poster">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#43112a"/>
+      <stop offset="58%" stop-color="#5e2038"/>
+      <stop offset="100%" stop-color="#04050a"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#ff4d6d" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#ff4d6d" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ff4d6d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0.35" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04050a" stop-opacity="0"/>
+      <stop offset="62%" stop-color="#04050a" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#04050a" stop-opacity="0.97"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <g><path d="M260.079822068698 591.4742537868608 L-897.6053379390607 518.2276136058254 L-897.6053379390607 669.7723863941748 Z" fill="#ffc2d1" opacity="0.154"/><path d="M260.1837036185661 597.8291699447545 L-894.488891443018 708.875098342636 L-878.4677535736273 820.3045598018928 Z" fill="#ffc2d1" opacity="0.073"/><path d="M261.0393282359826 603.0590317195879 L-868.8201529205207 865.7709515876384 L-830.2045523156958 997.2836097895345 Z" fill="#ffc2d1" opacity="0.081"/><path d="M262.65335231569327 608.3257777012022 L-820.3994305292026 1023.773331036069 L-758.5066053875539 1159.2997137368084 Z" fill="#ffc2d1" opacity="0.215"/><path d="M265.70876023254743 614.5939523941151 L-728.7371930235763 1211.8185718234545 L-689.3404146702607 1273.121155538595 Z" fill="#ffc2d1" opacity="0.161"/><path d="M267.8967536369954 617.861717728534 L-663.0973908901367 1309.8515318560203 L-545.6282448603533 1445.4181531388663 Z" fill="#ffc2d1" opacity="0.199"/><path d="M272.33715386840896 622.892333652717 L-529.8853839477308 1460.770009581508 L-439.84253646123364 1538.7925810687805 Z" fill="#ffc2d1" opacity="0.094"/><path d="M276.3021696931862 626.2244137068382 L-410.93490920441354 1560.7324112051444 L-284.0376976277739 1642.2842971969242 Z" fill="#ffc2d1" opacity="0.060"/><path d="M281.2063310964578 629.3100270340315 L-263.81006710626616 1653.300811020943 L-131.34906269124832 1713.793724806217 Z" fill="#ffc2d1" opacity="0.067"/><path d="M285.7743928341035 631.3849180922145 L-126.76821497689491 1715.547542766438 L52.665888212806465 1768.2341491995708 Z" fill="#ffc2d1" opacity="0.160"/><path d="M291.5946961907066 633.1069158573453 L47.84088572119833 1767.2074757203563 L211.41415654318942 1790.7257615423198 Z" fill="#ffc2d1" opacity="0.085"/><path d="M297.6513795225133 633.9309902438285 L229.54138567539974 1791.9297073148564 L370.45861432460026 1791.9297073148564 Z" fill="#ffc2d1" opacity="0.148"/><path d="M303.7372337849365 633.8250308679947 L412.11701354809463 1788.7509260398406 L529.0247464598317 1771.942131646971 Z" fill="#ffc2d1" opacity="0.119"/><path d="M310.1356172722914 632.6945637332898 L604.0685181687425 1754.8369119986946 L671.7971019034093 1734.950005485002 Z" fill="#ffc2d1" opacity="0.138"/><path d="M314.97129493895517 631.092591279807 L749.138848168655 1706.7777383942105 L846.8579063872533 1662.15093981223 Z" fill="#ffc2d1" opacity="0.157"/><path d="M320.4019956780314 628.4057927150877 L912.0598703409435 1626.173781452633 L984.6394373797604 1579.5297259770123 Z" fill="#ffc2d1" opacity="0.098"/><path d="M324.5857295014416 625.5522091917815 L1037.5718850432495 1540.5662757534456 L1131.9641723672878 1458.7748931931442 Z" fill="#ffc2d1" opacity="0.127"/><path d="M328.4408583463831 622.1268124130868 L1153.2257503914934 1437.8043723926019 L1256.6423452246484 1318.455259711105 Z" fill="#ffc2d1" opacity="0.164"/><path d="M332.76362567026837 616.9465647306636 L1282.9087701080516 1282.3969419199057 L1334.5029433886568 1202.1148412267253 Z" fill="#ffc2d1" opacity="0.143"/><path d="M335.1372849411887 613.1146856359636 L1354.1185482356607 1167.440569078909 L1423.6783121617925 1015.1259322070125 Z" fill="#ffc2d1" opacity="0.123"/><path d="M337.7513679911182 607.2224889789774 L1432.5410397335447 990.6746693693226 L1467.212668263903 872.5939465319734 Z" fill="#ffc2d1" opacity="0.067"/><path d="M339.2732643780952 601.5901716112509 L1478.1979313428562 821.7051483375244 L1494.6245902976943 707.4552257768046 Z" fill="#ffc2d1" opacity="0.129"/><circle cx="300" cy="594" r="128" fill="url(#glow)"/></g>
+  <rect width="600" height="900" fill="url(#shade)"/>
+  <rect width="600" height="900" filter="url(#grain)" opacity="0.05"/>
+
+  <g opacity="0.9">
+    <rect x="46" y="46" width="46" height="3" fill="#ff4d6d"/>
+    <text x="46" y="80" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4.4" fill="#ffffff" opacity="0.86">CINEVERSE</text>
+    <text x="46" y="104" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="13" letter-spacing="3.2" fill="#ff4d6d" opacity="0.95">ONE KITCHEN, THREE GENERATIONS</text>
+  </g>
+
+  
+    <text x="46" y="748" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-2" fill="#ffffff">Rangoli Nights</text>
+
+  <g>
+    <rect x="46" y="782" width="88" height="2" fill="#ff4d6d"/>
+    <text x="46" y="814" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" letter-spacing="1.6" fill="#ffffff" opacity="0.78">ROMANCE · COMEDY · 2H 01M</text>
+  </g>
+</svg>

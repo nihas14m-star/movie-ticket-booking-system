@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Echoes of Tomorrow poster">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#0b2438"/>
+      <stop offset="58%" stop-color="#123a52"/>
+      <stop offset="100%" stop-color="#04050a"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#38e1ff" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#38e1ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#38e1ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0.35" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04050a" stop-opacity="0"/>
+      <stop offset="62%" stop-color="#04050a" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#04050a" stop-opacity="0.97"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <g><path d="M151.6343583818525 514.8318022750318 L88.58701330143958 514.8318022750318 L140.91060261707753 514.8318022750318 L140.91060261707753 464.46403471566737" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.54"/><circle cx="140.91060261707753" cy="464.46403471566737" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M553.3824848011136 188.38120708800852 L506.4406453073025 188.38120708800852 L606.0316706029698 188.38120708800852 L533.2467019883916 188.38120708800852" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.53"/><circle cx="533.2467019883916" cy="188.38120708800852" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M590.9750591497868 236.37849895097315 L590.9750591497868 140.154556164518 L590.9750591497868 55.349392493255436 L687.1286366926506 55.349392493255436" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.24"/><circle cx="687.1286366926506" cy="55.349392493255436" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M545.3119841404259 328.63590680994093 L545.3119841404259 284.9058970762417 L527.3154876800254 284.9058970762417 L527.3154876800254 216.2430155882612" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.44"/><circle cx="527.3154876800254" cy="216.2430155882612" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M583.7681498844177 618.7920985277742 L583.7681498844177 683.8086441811174 L583.7681498844177 790.7161600794643 L502.2701759170741 790.7161600794643" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.56"/><circle cx="502.2701759170741" cy="790.7161600794643" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M117.75392736308277 466.3418972119689 L117.75392736308277 526.9936750922352 L117.75392736308277 623.8849556446075 L117.75392736308277 696.3232996081933" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.52"/><circle cx="117.75392736308277" cy="696.3232996081933" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M328.6186472978443 398.3869115486741 L293.7652412848547 398.3869115486741 L360.6312293559313 398.3869115486741 L360.6312293559313 457.29283025395125" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.29"/><circle cx="360.6312293559313" cy="457.29283025395125" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M389.1440893057734 569.9818033799529 L452.8963790182024 569.9818033799529 L452.8963790182024 601.2481591692194 L452.8963790182024 585.4350944077596" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.23"/><circle cx="452.8963790182024" cy="585.4350944077596" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M375.7539105601609 610.781293457374 L458.39001942425966 610.781293457374 L423.55232066009194 610.781293457374 L423.55232066009194 675.4692781083286" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.30"/><circle cx="423.55232066009194" cy="675.4692781083286" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M39.90767430514097 495.55283155851066 L39.90767430514097 426.6576471515 L12.933030826970935 426.6576471515 L3.053078707307577 426.6576471515" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.26"/><circle cx="3.053078707307577" cy="426.6576471515" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M445.8868236746639 105.9520279057324 L445.8868236746639 12.20179455820471 L445.8868236746639 87.43085592985153 L458.9487182116136 87.43085592985153" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.48"/><circle cx="458.9487182116136" cy="87.43085592985153" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M161.86228743754327 617.5523840691894 L71.25710414722562 617.5523840691894 L71.25710414722562 642.3139570895582 L71.25710414722562 675.8348886631429" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.37"/><circle cx="71.25710414722562" cy="675.8348886631429" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M342.57015623152256 544.0446647945791 L317.3104625893757 544.0446647945791 L319.66562539339066 544.0446647945791 L360.6885173311457 544.0446647945791" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.22"/><circle cx="360.6885173311457" cy="544.0446647945791" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M282.33708101324737 338.0253640282899 L179.0472637489438 338.0253640282899 L178.69141198694706 338.0253640282899 L178.69141198694706 297.6353732170537" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.49"/><circle cx="178.69141198694706" cy="297.6353732170537" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M299.09777361899614 483.8640307467431 L193.6413616221398 483.8640307467431 L302.242034538649 483.8640307467431 L366.302909408696 483.8640307467431" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.51"/><circle cx="366.302909408696" cy="483.8640307467431" r="4.5" fill="#38e1ff" opacity="0.9"/><path d="M212.64760689809918 41.43190155364573 L225.30288450419903 41.43190155364573 L225.30288450419903 135.90938478335738 L225.30288450419903 105.16618339903653" fill="none" stroke="#a5eeff" stroke-width="1.6" opacity="0.29"/><circle cx="225.30288450419903" cy="105.16618339903653" r="4.5" fill="#38e1ff" opacity="0.9"/><circle cx="300" cy="270" r="96" fill="url(#glow)"/></g>
+  <rect width="600" height="900" fill="url(#shade)"/>
+  <rect width="600" height="900" filter="url(#grain)" opacity="0.05"/>
+
+  <g opacity="0.9">
+    <rect x="46" y="46" width="46" height="3" fill="#38e1ff"/>
+    <text x="46" y="80" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4.4" fill="#ffffff" opacity="0.86">CINEVERSE</text>
+    <text x="46" y="104" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="13" letter-spacing="3.2" fill="#38e1ff" opacity="0.95">THIRTY SECONDS AHEAD</text>
+  </g>
+
+  
+    <text x="46" y="678" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="#ffffff">Echoes of</text>
+    <text x="46" y="748" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="#ffffff">Tomorrow</text>
+
+  <g>
+    <rect x="46" y="782" width="88" height="2" fill="#38e1ff"/>
+    <text x="46" y="814" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" letter-spacing="1.6" fill="#ffffff" opacity="0.78">SCI-FI · MYSTERY · 2H 11M</text>
+  </g>
+</svg>

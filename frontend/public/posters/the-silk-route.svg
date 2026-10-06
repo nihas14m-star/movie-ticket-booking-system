@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="The Silk Route poster">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#3b2606"/>
+      <stop offset="58%" stop-color="#5a3a0c"/>
+      <stop offset="100%" stop-color="#04050a"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#ffb020" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#ffb020" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffb020" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0.35" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04050a" stop-opacity="0"/>
+      <stop offset="62%" stop-color="#04050a" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#04050a" stop-opacity="0.97"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <g><path d="M40 702 L40 372 Q300 192.00000000000003 560 372 L560 702" fill="none" stroke="#ffb020" stroke-width="1.8" opacity="0.28"/><path d="M92 702 L92 412.5 Q300 232.5 508 412.5 L508 702" fill="none" stroke="#ffd89b" stroke-width="3.4" opacity="0.44000000000000006"/><path d="M144 702 L144 453 Q300 273 456 453 L456 702" fill="none" stroke="#ffb020" stroke-width="1.8" opacity="0.6000000000000001"/><path d="M196 702 L196 493.50000000000006 Q300 313.50000000000006 404 493.50000000000006 L404 702" fill="none" stroke="#ffd89b" stroke-width="1.8" opacity="0.76"/><circle cx="300" cy="297" r="78" fill="url(#glow)"/></g>
+  <rect width="600" height="900" fill="url(#shade)"/>
+  <rect width="600" height="900" filter="url(#grain)" opacity="0.05"/>
+
+  <g opacity="0.9">
+    <rect x="46" y="46" width="46" height="3" fill="#ffb020"/>
+    <text x="46" y="80" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4.4" fill="#ffffff" opacity="0.86">CINEVERSE</text>
+    <text x="46" y="104" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="13" letter-spacing="3.2" fill="#ffb020" opacity="0.95">THREE COURTS, ONE ROAD</text>
+  </g>
+
+  
+    <text x="46" y="748" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-2" fill="#ffffff">The Silk Route</text>
+
+  <g>
+    <rect x="46" y="782" width="88" height="2" fill="#ffb020"/>
+    <text x="46" y="814" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" letter-spacing="1.6" fill="#ffffff" opacity="0.78">ADVENTURE · DRAMA · 2H 17M</text>
+  </g>
+</svg>

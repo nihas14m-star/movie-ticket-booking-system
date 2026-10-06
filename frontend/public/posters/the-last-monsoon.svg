@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="The Last Monsoon poster">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#08303a"/>
+      <stop offset="58%" stop-color="#0d4557"/>
+      <stop offset="100%" stop-color="#04050a"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#38e1ff" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#38e1ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#38e1ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0.35" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04050a" stop-opacity="0"/>
+      <stop offset="62%" stop-color="#04050a" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#04050a" stop-opacity="0.97"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <g><path d="M0 360 C 150 300.2629680726677, 300 419.7370319273323, 450 324.1577808436006 S 600 389.86851596366614, 600 360" fill="none" stroke="#38e1ff" stroke-width="1.7" opacity="0.22"/><path d="M0 427.50000000000006 C 150 354.75597580149775, 300 500.24402419850236, 450 383.8535854808987 S 600 463.8720120992512, 600 427.50000000000006" fill="none" stroke="#9fe6ff" stroke-width="1.7" opacity="0.32"/><path d="M0 495.00000000000006 C 150 439.26097831130033, 300 550.7390216886997, 450 461.55658698678025 S 600 522.8695108443499, 600 495.00000000000006" fill="none" stroke="#38e1ff" stroke-width="1.7" opacity="0.42000000000000004"/><path d="M0 562.5 C 150 509.31995038036257, 300 615.6800496196374, 450 530.5919702282175 S 600 589.0900248098187, 600 562.5" fill="none" stroke="#9fe6ff" stroke-width="3.4" opacity="0.52"/><path d="M0 630 C 150 590.1390576092526, 300 669.8609423907474, 450 606.0834345655516 S 600 649.9304711953737, 600 630" fill="none" stroke="#38e1ff" stroke-width="1.7" opacity="0.62"/><path d="M0 697.5 C 150 640.1235487470403, 300 754.8764512529597, 450 663.0741292482242 S 600 726.1882256264798, 600 697.5" fill="none" stroke="#9fe6ff" stroke-width="1.7" opacity="0.72"/><path d="M0 765 C 150 717.4557126099244, 300 812.5442873900756, 450 736.4734275659546 S 600 788.7721436950378, 600 765" fill="none" stroke="#38e1ff" stroke-width="1.7" opacity="0.8200000000000001"/><circle cx="468" cy="216" r="70" fill="url(#glow)"/></g>
+  <rect width="600" height="900" fill="url(#shade)"/>
+  <rect width="600" height="900" filter="url(#grain)" opacity="0.05"/>
+
+  <g opacity="0.9">
+    <rect x="46" y="46" width="46" height="3" fill="#38e1ff"/>
+    <text x="46" y="80" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4.4" fill="#ffffff" opacity="0.86">CINEVERSE</text>
+    <text x="46" y="104" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="13" letter-spacing="3.2" fill="#38e1ff" opacity="0.95">TWO BANKS, ONE RIVER</text>
+  </g>
+
+  
+    <text x="46" y="678" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="#ffffff">The Last</text>
+    <text x="46" y="748" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="#ffffff">Monsoon</text>
+
+  <g>
+    <rect x="46" y="782" width="88" height="2" fill="#38e1ff"/>
+    <text x="46" y="814" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" letter-spacing="1.6" fill="#ffffff" opacity="0.78">DRAMA · ROMANCE · 2H 08M</text>
+  </g>
+</svg>

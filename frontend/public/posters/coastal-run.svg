@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Coastal Run poster">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#12321f"/>
+      <stop offset="58%" stop-color="#1f4d2b"/>
+      <stop offset="100%" stop-color="#04050a"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#f5a524" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#f5a524" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#f5a524" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0.35" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04050a" stop-opacity="0"/>
+      <stop offset="62%" stop-color="#04050a" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#04050a" stop-opacity="0.97"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <g><circle cx="210" cy="315" r="120" fill="url(#glow)"/><polygon points="-160,900 -114,900 50,324 16,324" fill="#bbe7a6" opacity="0.31"/><polygon points="-68,900 -22,900 142,324 108,324" fill="#bbe7a6" opacity="0.37"/><polygon points="24,900 70,900 234,324 200,324" fill="#bbe7a6" opacity="0.22"/><polygon points="116,900 162,900 326,324 292,324" fill="#bbe7a6" opacity="0.31"/><polygon points="208,900 254,900 418,324 384,324" fill="#bbe7a6" opacity="0.19"/><polygon points="300,900 346,900 510,324 476,324" fill="#bbe7a6" opacity="0.16"/><polygon points="392,900 438,900 602,324 568,324" fill="#bbe7a6" opacity="0.37"/><polygon points="484,900 530,900 694,324 660,324" fill="#bbe7a6" opacity="0.23"/><polygon points="576,900 622,900 786,324 752,324" fill="#bbe7a6" opacity="0.22"/></g>
+  <rect width="600" height="900" fill="url(#shade)"/>
+  <rect width="600" height="900" filter="url(#grain)" opacity="0.05"/>
+
+  <g opacity="0.9">
+    <rect x="46" y="46" width="46" height="3" fill="#f5a524"/>
+    <text x="46" y="80" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4.4" fill="#ffffff" opacity="0.86">CINEVERSE</text>
+    <text x="46" y="104" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="13" letter-spacing="3.2" fill="#f5a524" opacity="0.95">400 KM. ONE STOLEN CAR.</text>
+  </g>
+
+  
+    <text x="46" y="748" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-2" fill="#ffffff">Coastal Run</text>
+
+  <g>
+    <rect x="46" y="782" width="88" height="2" fill="#f5a524"/>
+    <text x="46" y="814" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" letter-spacing="1.6" fill="#ffffff" opacity="0.78">COMEDY · ACTION · 2H 14M</text>
+  </g>
+</svg>

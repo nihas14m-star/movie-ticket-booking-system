@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Deep Blue Silence poster">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#06203c"/>
+      <stop offset="58%" stop-color="#0a3358"/>
+      <stop offset="100%" stop-color="#04050a"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#38e1ff" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#38e1ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#38e1ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0.35" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04050a" stop-opacity="0"/>
+      <stop offset="62%" stop-color="#04050a" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#04050a" stop-opacity="0.97"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <g><circle cx="405.3" cy="196.2" r="35.5" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.39"/><circle cx="221.6" cy="264.7" r="20.9" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.28"/><circle cx="4.7" cy="160.4" r="57.6" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.17"/><circle cx="290.3" cy="103.0" r="23.4" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.31"/><circle cx="433.4" cy="478.5" r="50.3" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.40"/><circle cx="21.5" cy="496.1" r="7.0" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.55"/><circle cx="497.8" cy="270.7" r="58.3" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.45"/><circle cx="108.1" cy="158.0" r="28.2" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.35"/><circle cx="524.3" cy="157.9" r="39.6" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.40"/><circle cx="142.1" cy="691.9" r="28.4" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.24"/><circle cx="562.4" cy="74.1" r="27.3" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.49"/><circle cx="372.1" cy="588.8" r="40.0" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.46"/><circle cx="84.1" cy="649.9" r="21.3" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.40"/><circle cx="233.8" cy="354.0" r="9.6" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.36"/><circle cx="242.6" cy="336.6" r="49.9" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.16"/><circle cx="573.4" cy="528.3" r="25.2" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.33"/><circle cx="238.4" cy="575.8" r="30.3" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.48"/><circle cx="112.4" cy="229.5" r="50.8" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.53"/><circle cx="279.7" cy="299.7" r="9.2" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.33"/><circle cx="287.5" cy="342.3" r="7.9" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.25"/><circle cx="521.6" cy="276.6" r="9.8" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.25"/><circle cx="113.1" cy="667.4" r="48.1" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.53"/><circle cx="396.5" cy="442.3" r="6.2" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.19"/><circle cx="511.9" cy="176.9" r="28.0" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.50"/><circle cx="325.5" cy="336.8" r="55.5" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.44"/><circle cx="236.1" cy="480.1" r="20.2" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.42"/><circle cx="189.7" cy="313.4" r="37.7" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.36"/><circle cx="392.0" cy="576.5" r="39.2" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.38"/><circle cx="463.3" cy="401.9" r="26.4" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.43"/><circle cx="469.7" cy="657.1" r="57.9" fill="none" stroke="#9fd8ff" stroke-width="1.5" opacity="0.46"/><circle cx="300" cy="270" r="110" fill="url(#glow)"/></g>
+  <rect width="600" height="900" fill="url(#shade)"/>
+  <rect width="600" height="900" filter="url(#grain)" opacity="0.05"/>
+
+  <g opacity="0.9">
+    <rect x="46" y="46" width="46" height="3" fill="#38e1ff"/>
+    <text x="46" y="80" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4.4" fill="#ffffff" opacity="0.86">CINEVERSE</text>
+    <text x="46" y="104" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="13" letter-spacing="3.2" fill="#38e1ff" opacity="0.95">TWO KILOMETRES DOWN, TWO HEARTBEATS</text>
+  </g>
+
+  
+    <text x="46" y="678" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="#ffffff">Deep Blue</text>
+    <text x="46" y="748" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="#ffffff">Silence</text>
+
+  <g>
+    <rect x="46" y="782" width="88" height="2" fill="#38e1ff"/>
+    <text x="46" y="814" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" letter-spacing="1.6" fill="#ffffff" opacity="0.78">THRILLER · MYSTERY · 1H 53M</text>
+  </g>
+</svg>

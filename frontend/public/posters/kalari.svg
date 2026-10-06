@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Kalari: Rise of the Warrior poster">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#3a1410"/>
+      <stop offset="58%" stop-color="#5c2a06"/>
+      <stop offset="100%" stop-color="#04050a"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#ff9f43" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#ff9f43" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ff9f43" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0.35" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04050a" stop-opacity="0"/>
+      <stop offset="62%" stop-color="#04050a" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#04050a" stop-opacity="0.97"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <g><circle cx="420" cy="270" r="86" fill="url(#glow)" opacity="0.9"/><polygon points="0,900 0,495.00000000000006 100,493.66415149066603 200,476.2017138116062 300,482.1844919119031 400,424.53576117055496 500,489.670414372813 600,448.1973580853083 600,495.00000000000006 600,900" fill="#120604" opacity="0.55"/><polygon points="0,900 0,603 100,559.8471310818568 200,583.4594369772822 300,574.1316428463906 400,593.508059617132 500,580.8950795996934 600,568.8204164113849 600,603 600,900" fill="#120604" opacity="0.7100000000000001"/><polygon points="0,900 0,711 100,688.7862600176595 200,665.3303729947656 300,689.0264603518881 400,700.173086357303 500,694.2217357554473 600,675.2525243088603 600,711 600,900" fill="#120604" opacity="0.8700000000000001"/></g>
+  <rect width="600" height="900" fill="url(#shade)"/>
+  <rect width="600" height="900" filter="url(#grain)" opacity="0.05"/>
+
+  <g opacity="0.9">
+    <rect x="46" y="46" width="46" height="3" fill="#ff9f43"/>
+    <text x="46" y="80" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4.4" fill="#ffffff" opacity="0.86">CINEVERSE</text>
+    <text x="46" y="104" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="13" letter-spacing="3.2" fill="#ff9f43" opacity="0.95">THE ART THEY TRIED TO ERASE</text>
+  </g>
+
+  
+    <text x="46" y="678" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="#ffffff">Kalari: Rise of</text>
+    <text x="46" y="748" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="#ffffff">the Warrior</text>
+
+  <g>
+    <rect x="46" y="782" width="88" height="2" fill="#ff9f43"/>
+    <text x="46" y="814" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" letter-spacing="1.6" fill="#ffffff" opacity="0.78">ACTION · DRAMA · 2H 35M</text>
+  </g>
+</svg>

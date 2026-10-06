@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Silent Frequency poster">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#160d1f"/>
+      <stop offset="58%" stop-color="#2c1030"/>
+      <stop offset="100%" stop-color="#04050a"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#a855f7" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0.35" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04050a" stop-opacity="0"/>
+      <stop offset="62%" stop-color="#04050a" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#04050a" stop-opacity="0.97"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <g><rect x="3" y="543.9061916135252" width="29.294117647058826" height="68.09380838647485" rx="4" fill="#a855f7" opacity="0.78"/><rect x="38.294117647058826" y="161.81964473146945" width="29.294117647058826" height="450.18035526853055" rx="4" fill="#e9d5ff" opacity="0.59"/><rect x="73.58823529411765" y="290.80760725121945" width="29.294117647058826" height="321.19239274878055" rx="4" fill="#e9d5ff" opacity="0.30"/><rect x="108.88235294117648" y="303.12811024300754" width="29.294117647058826" height="308.87188975699246" rx="4" fill="#e9d5ff" opacity="0.76"/><rect x="144.1764705882353" y="509.06274712923914" width="29.294117647058826" height="102.93725287076086" rx="4" fill="#a855f7" opacity="0.49"/><rect x="179.47058823529414" y="470.8460212899372" width="29.294117647058826" height="141.1539787100628" rx="4" fill="#e9d5ff" opacity="0.73"/><rect x="214.76470588235296" y="249.74390797130764" width="29.294117647058826" height="362.25609202869236" rx="4" fill="#e9d5ff" opacity="0.40"/><rect x="250.05882352941177" y="536.3852055910975" width="29.294117647058826" height="75.61479440890253" rx="4" fill="#e9d5ff" opacity="0.61"/><rect x="285.3529411764706" y="288.56628957018256" width="29.294117647058826" height="323.43371042981744" rx="4" fill="#a855f7" opacity="0.41"/><rect x="320.64705882352945" y="279.50236307736486" width="29.294117647058826" height="332.49763692263514" rx="4" fill="#e9d5ff" opacity="0.46"/><rect x="355.9411764705883" y="541.6316807717085" width="29.294117647058826" height="70.36831922829151" rx="4" fill="#e9d5ff" opacity="0.51"/><rect x="391.2352941176471" y="525.128435947001" width="29.294117647058826" height="86.87156405299902" rx="4" fill="#e9d5ff" opacity="0.35"/><rect x="426.5294117647059" y="503.49553628638387" width="29.294117647058826" height="108.50446371361613" rx="4" fill="#a855f7" opacity="0.79"/><rect x="461.82352941176475" y="523.1344798095524" width="29.294117647058826" height="88.86552019044757" rx="4" fill="#e9d5ff" opacity="0.39"/><rect x="497.11764705882354" y="378.1544614378363" width="29.294117647058826" height="233.8455385621637" rx="4" fill="#e9d5ff" opacity="0.77"/><rect x="532.4117647058824" y="316.94014404248446" width="29.294117647058826" height="295.05985595751554" rx="4" fill="#e9d5ff" opacity="0.33"/><rect x="567.7058823529412" y="258.12893044017255" width="29.294117647058826" height="353.87106955982745" rx="4" fill="#a855f7" opacity="0.76"/></g>
+  <rect width="600" height="900" fill="url(#shade)"/>
+  <rect width="600" height="900" filter="url(#grain)" opacity="0.05"/>
+
+  <g opacity="0.9">
+    <rect x="46" y="46" width="46" height="3" fill="#a855f7"/>
+    <text x="46" y="80" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4.4" fill="#ffffff" opacity="0.86">CINEVERSE</text>
+    <text x="46" y="104" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="13" letter-spacing="3.2" fill="#a855f7" opacity="0.95">STATIC NEVER LIES</text>
+  </g>
+
+  
+    <text x="46" y="678" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="#ffffff">Silent</text>
+    <text x="46" y="748" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="#ffffff">Frequency</text>
+
+  <g>
+    <rect x="46" y="782" width="88" height="2" fill="#a855f7"/>
+    <text x="46" y="814" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" letter-spacing="1.6" fill="#ffffff" opacity="0.78">HORROR · THRILLER · 1H 58M</text>
+  </g>
+</svg>

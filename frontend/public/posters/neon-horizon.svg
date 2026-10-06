@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Neon Horizon poster">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#12203f"/>
+      <stop offset="58%" stop-color="#2a1a4d"/>
+      <stop offset="100%" stop-color="#04050a"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#38e1ff" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#38e1ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#38e1ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0.35" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04050a" stop-opacity="0"/>
+      <stop offset="62%" stop-color="#04050a" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#04050a" stop-opacity="0.97"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <g><circle cx="372" cy="396" r="112" fill="url(#glow)"/><line x1="0" y1="468" x2="-480" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="42.857142857142854" y1="468" x2="-368.57142857142867" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="85.71428571428571" y1="468" x2="-257.1428571428571" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="128.57142857142856" y1="468" x2="-145.71428571428578" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="171.42857142857142" y1="468" x2="-34.285714285714334" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="214.28571428571428" y1="468" x2="77.14285714285711" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="257.1428571428571" y1="468" x2="188.5714285714285" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="300" y1="468" x2="300" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="342.85714285714283" y1="468" x2="411.4285714285714" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="385.7142857142857" y1="468" x2="522.8571428571429" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="428.57142857142856" y1="468" x2="634.2857142857142" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="471.42857142857144" y1="468" x2="745.7142857142858" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="514.2857142857142" y1="468" x2="857.142857142857" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="557.1428571428571" y1="468" x2="968.5714285714286" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="600" y1="468" x2="1080" y2="900" stroke="#6ee7ff" stroke-width="1.4" opacity="0.5"/><line x1="0" y1="472.2812883293879" x2="600" y2="472.2812883293879" stroke="#6ee7ff" stroke-width="1.2" opacity="0.25333333333333335"/><line x1="0" y1="486.35428486761714" x2="600" y2="486.35428486761714" stroke="#6ee7ff" stroke-width="1.2" opacity="0.2866666666666667"/><line x1="0" y1="511.00600607235657" x2="600" y2="511.00600607235657" stroke="#6ee7ff" stroke-width="1.2" opacity="0.32"/><line x1="0" y1="546.6865417797741" x2="600" y2="546.6865417797741" stroke="#6ee7ff" stroke-width="1.2" opacity="0.35333333333333333"/><line x1="0" y1="593.7220593130171" x2="600" y2="593.7220593130171" stroke="#6ee7ff" stroke-width="1.2" opacity="0.38666666666666666"/><line x1="0" y1="652.3707841521059" x2="600" y2="652.3707841521059" stroke="#6ee7ff" stroke-width="1.2" opacity="0.42"/><line x1="0" y1="722.8474902669276" x2="600" y2="722.8474902669276" stroke="#6ee7ff" stroke-width="1.2" opacity="0.45333333333333337"/><line x1="0" y1="805.3365893532607" x2="600" y2="805.3365893532607" stroke="#6ee7ff" stroke-width="1.2" opacity="0.4866666666666667"/><line x1="0" y1="900" x2="600" y2="900" stroke="#6ee7ff" stroke-width="1.2" opacity="0.52"/></g>
+  <rect width="600" height="900" fill="url(#shade)"/>
+  <rect width="600" height="900" filter="url(#grain)" opacity="0.05"/>
+
+  <g opacity="0.9">
+    <rect x="46" y="46" width="46" height="3" fill="#38e1ff"/>
+    <text x="46" y="80" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4.4" fill="#ffffff" opacity="0.86">CINEVERSE</text>
+    <text x="46" y="104" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="13" letter-spacing="3.2" fill="#38e1ff" opacity="0.95">A FUTURE WORTH BURNING FOR</text>
+  </g>
+
+  
+    <text x="46" y="748" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-2" fill="#ffffff">Neon Horizon</text>
+
+  <g>
+    <rect x="46" y="782" width="88" height="2" fill="#38e1ff"/>
+    <text x="46" y="814" font-family="'Helvetica Neue',Inter,Arial,sans-serif" font-size="15" letter-spacing="1.6" fill="#ffffff" opacity="0.78">SCI-FI · ACTION · 2H 22M</text>
+  </g>
+</svg>

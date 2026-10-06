@@ -1,0 +1,38 @@
+{
+  "name": "cineverse-movie-ticket-booking",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CINEVERSE — a movie ticket booking system. React + Express + MySQL, with an optional OpenRouter AI layer.",
+  "keywords": [
+    "movie-booking",
+    "express",
+    "react",
+    "mysql",
+    "college-project"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "setup": "npm install && npm run install:all && npm run db:reset",
+    "install:all": "cd backend && npm install --no-audit --no-fund && cd ../frontend && npm install --no-audit --no-fund",
+    "db:setup": "cd backend && npm run db:setup",
+    "db:reset": "cd backend && npm run db:reset",
+    "db:seed": "cd backend && npm run db:seed",
+    "dev": "concurrently -n api,web -c magenta,cyan \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:api": "cd backend && npm run dev",
+    "dev:web": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "posters": "node scripts/generate-posters.mjs",
+    "screenshots": "node scripts/screenshots.mjs",
+    "er-diagram": "node scripts/render-er-diagram.mjs",
+    "test": "cd backend && npm test",
+    "verify": "npm run posters && npm run build && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "playwright-core": "^1.63.0"
+  }
+}
